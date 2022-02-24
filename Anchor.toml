@@ -1,0 +1,12 @@
+[programs.devnet]
+myepicproject = "BZbxcrhYCNiuc15gebyVreHMRyYeWwr6PmDy5xrDaD4p"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/francisyang/.config/solana/id.json"
+
+[scripts]
+test = "mocha tests/myepicproject.js --timeout 5000" 
